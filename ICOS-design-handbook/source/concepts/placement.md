@@ -3,15 +3,11 @@
 **Placement** is the step where the components of a circuit (standard cells in digital, or devices in analog) are arranged within the chip area.  
 A good placement ensures efficient routing, minimizes delay, and improves overall performance.
 
----
-
-## Why placement matters
+### Why placement matters
 
 - Directly affects **timing, power, and area**.  
 - Influences **routing congestion** and manufacturability.  
 - For analog, placement is critical for **matching, symmetry, and noise isolation**.  
-
----
 
 ## Placement in digital design
 
@@ -29,6 +25,14 @@ A good placement ensures efficient routing, minimizes delay, and improves overal
   - Placed DEF file.  
   - Reports for wire length, congestion, and timing impact.  
 
+### Global and Detailed placement
+
+![asda](fig/global_pl.jpg "asdasd")
+*Schematic view of an OTA designed in Xschem.*
+
+![asda](fig/detailed_pl.jpg "asdasd")
+*Schematic view of an OTA designed in Xschem.*
+
 -```{seealso}
 For practical details, see:
 - {doc}`../digital_flows/openroad/flow_steps`  
@@ -37,8 +41,6 @@ For practical details, see:
 📺 **Video Resource – Placement Basics (VSD YouTube)**  
 [Placement Fundamentals](https://www.youtube.com/watch?v=hVT8pRgr5zg)
 -```
-
----
 
 ## Placement in analog design
 
@@ -60,8 +62,6 @@ For examples of schematic-driven analog layout, see:
 - {doc}`../analog_flows/magic_layout`
 -```
 
----
-
 ## Mixed-signal considerations
 
 - Isolation between noisy digital blocks and sensitive analog sections.  
@@ -71,8 +71,6 @@ For examples of schematic-driven analog layout, see:
 -```{seealso}
 See {doc}`../mixed_signal/analog_on_top` for integration guidelines.
 -```
-
----
 
 ## Further Reading
 
