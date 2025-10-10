@@ -3,15 +3,11 @@
 **Routing** is the process of creating the **physical interconnections** between placed components inside a chip.  
 After placement defines *where* each element sits, routing defines *how* signals, power, and clocks travel across metal layers.
 
----
-
-## Why routing matters
+### Why routing matters
 
 - Determines **signal integrity**, **timing**, and **power distribution**.  
 - Affects chip **area**, **congestion**, and **manufacturability**.  
 - Errors in routing can cause shorts, opens, or parasitic effects that degrade performance.  
-
----
 
 ## Routing in digital design
 
@@ -29,6 +25,11 @@ After placement defines *where* each element sits, routing defines *how* signals
   - Fully routed DEF and updated netlist.  
   - Reports for DRC violations, wire length, and timing closure.  
 
+### Global and Detailed Routing
+
+![asda](fig/routing.jpg "asdasd")
+*Schematic view of an OTA designed in Xschem.*
+
 -```{seealso}
 For practical implementation examples, see:
 - {doc}`../digital_flows/openroad/flow_steps`
@@ -37,8 +38,6 @@ For practical implementation examples, see:
 📺 **Video Resource – Routing Fundamentals (VSD YouTube)**  
 [Routing Basics](https://www.youtube.com/watch?v=yS3TMVovX-4)
 -```
-
----
 
 ## Routing in analog design
 
@@ -62,8 +61,6 @@ For schematic-driven analog layout routing, see:
 - {doc}`../analog_flows/klayout_drc_lvs`
 -```
 
----
-
 ## Mixed-signal considerations
 
 - Isolation between analog and digital routing domains.  
@@ -73,8 +70,6 @@ For schematic-driven analog layout routing, see:
 -```{seealso}
 See {doc}`../mixed_signal/analog_on_top` for integration techniques.
 -```
-
----
 
 ## Further Reading
 
