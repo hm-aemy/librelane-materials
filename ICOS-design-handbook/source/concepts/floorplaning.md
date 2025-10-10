@@ -3,16 +3,37 @@
 **Floorplanning** is the process of defining the **physical organization** of a chip before detailed placement and routing.  
 It sets the foundation for power distribution, signal flow, and overall chip performance.
 
----
-
-## Why floorplanning matters
+### Why floorplanning matters
 
 - Establishes the **chip outline** and core area.  
 - Defines the position of **I/O pads, macros, and memory blocks**.  
 - Ensures a robust **power delivery network (PDN)**.  
 - Affects performance, congestion, and manufacturability.  
 
----
+## Key sub-concepts
+
+### Chip geometry and sizes
+
+1. Core 
+2. Die / Chip boundary 
+3. Power Ring
+
+![asda](fig/chip_sizes.jpg "asdasd")
+*Schematic view of an OTA designed in Xschem.*
+
+### Padring
+
+
+
+### Macro placement
+
+![asda](fig/macro-guidelines.png "asdasd")
+*Schematic view of an OTA designed in Xschem.*
+
+### Power Grid
+
+![asda](fig/power-grid.png "asdasd")
+*Schematic view of an OTA designed in Xschem.*
 
 ## Floorplanning in digital design
 
@@ -32,7 +53,6 @@ It sets the foundation for power distribution, signal flow, and overall chip per
   - Reports for area utilization and congestion estimates.  
 
 ```{seealso}
-
 📺 **Video Series – Floorplanning Basics (VSD YouTube)**  
 - [Part 1](https://www.youtube.com/watch?v=Z1Cxbn5LOYg)  
 - [Part 2](https://www.youtube.com/watch?v=iKGxOVbwi40)  
@@ -46,8 +66,6 @@ For detailed steps on digital floorplanning, see:
 - {doc}`../digital_flows/openroad/flow_steps`  
 - {doc}`../digital_flows/librelane/flow_steps`
 ```
-
----
 
 ## Floorplanning in analog design
 
@@ -66,7 +84,6 @@ For schematic-driven analog layout, see:
 - {doc}`../analog_flows/magic_layout`  
 - {doc}`../analog_flows/klayout_drc_lvs`
 ```
----
 
 ## Mixed-signal considerations
 
@@ -78,9 +95,6 @@ For schematic-driven analog layout, see:
 For mixed-signal integration, see:  
 - {doc}`../mixed_signal/analog_on_top`
 ```
-
----
-
 
 ## Further Reading
 
