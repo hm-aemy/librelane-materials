@@ -1,18 +1,18 @@
 # Librelane Flow
 
+[LibreLane is a powerful and versatile infrastructure library that enables the construction of digital ASIC physical implementation flows based on open-source and commercial EDA tools. It includes a reference flow (Classic) that is constructed entirely using open-source EDA tools –abstracting their behavior and allowing the user to configure them using a single file (See Figure 1). LibreLane also supports extending or modifying flows using Python scripts and utilities.](https://librelane.readthedocs.io/en/latest/getting_started/newcomers/index.html)
+
+![asda](fig/librelane_flow.png "asdasd")
+
+## Librelane Classic Steps
+
 ```
-concepts/
-├── specs.md
-│   └─ (LibreLane: Verilator.Lint, Checker.LintTimingConstructs, Checker.LintErrors, Checker.LintWarnings)
-│      → RTL Linting ensures the design meets initial logical and timing specifications.
-
-├── design_abstractions.md
-│   └─ (LibreLane implicitly handles this through synthesis preparation and technology mapping)
-│      → Translates high-level RTL into gate-level abstractions.
-
-├── simulation.md
-│   └─ (LibreLane: Verilator.Lint acts as static analysis — simulation and functional verification usually run externally)
-│      → Simulations validate functionality before synthesis.
+Librelane-Flow/
+├── RTL-Linting
+│   ├─ 1. Verilator.Lint
+│   ├─ 2. Checker.LintTimingConstructs
+│   ├─ 3. Checker.LintErrors
+│   └─ 4. Checker.LintWarning
 
 ├── synthesis_netlists.md
 │   ├─ 5. Yosys.JsonHeader  
@@ -94,6 +94,7 @@ concepts/
 
 ```{toctree}
 :glob:
+:hidden:
 
 installation.md
 running.md

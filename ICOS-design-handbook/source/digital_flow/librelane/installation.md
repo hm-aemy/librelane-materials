@@ -121,7 +121,7 @@ Minimum requirements:
 
 Recommended requirements:
 
-- 6th Generation Intel® Core™ CPU or higher OR AMD Ryzen™️ 1000 Series or higher
+- 6th Generation Intel® Core™ CPU or higher OR AMD Ryzen 1000 Series or higher
 - 16 GB RAM
 - Ubuntu 22.04
 
