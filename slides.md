@@ -51,7 +51,7 @@ Please note that the five steps mentioned here are essential overarching points.
 
 Open-source chip design for the production of digital ASICs requires numerous EDA (Electronic Design Automation) tools that rely on infrastructure libraries. LibreLane is a comprehensive open-source infrastructure library. 
 
-The corresponding LibreLane flow is also divided into a frontend and a backend, as well as the modules Design Entry, RTL Synthesis, Layout Synthesis, and Signoff, which in turn include the following steps.
+The corresponding LibreLane flow is divided into a frontend and a backend, as well as the modules Design Entry, RTL Synthesis, Layout Synthesis, and Signoff, which in turn include the following steps.
 
 ![LibreLaneFlow](Bilder5/LibreLaneFlow.jpg)
 
