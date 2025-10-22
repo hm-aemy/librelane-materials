@@ -25,6 +25,13 @@ source_suffix = {
     ".md": "markdown",
 }
 
+latex_documents = [
+    ('index', 'ic_design_guide.tex', 'IC Design Guide',
+     'Daniel Arévalos Ortiz', 'manual'),
+]
+
+latex_toplevel_sectioning = 'chapter'  # treat top headings as chapters, even in master doc
+
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
