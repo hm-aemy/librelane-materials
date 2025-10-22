@@ -35,9 +35,9 @@ For practical implementation examples, see:
 - {doc}`../digital_flows/openroad/flow_steps`
 - {doc}`../digital_flows/librelane/flow_steps`
 
-📺 **Video Resource – Routing Fundamentals (VSD YouTube)**  
+**Video Resource – Routing Fundamentals (VSD YouTube)**  
 [Routing Basics](https://www.youtube.com/watch?v=yS3TMVovX-4)
--```
+```
 
 ## Routing in analog design
 
@@ -55,11 +55,11 @@ For practical implementation examples, see:
   - Completed layout interconnects.  
   - DRC/LVS-clean layout ready for parasitic extraction.  
 
--```{seealso}
+```{seealso}
 For schematic-driven analog layout routing, see:
 - {doc}`../analog_flows/magic_layout`
 - {doc}`../analog_flows/klayout_drc_lvs`
--```
+```
 
 ## Mixed-signal considerations
 
@@ -67,14 +67,14 @@ For schematic-driven analog layout routing, see:
 - Use of guard rings and shielding to reduce substrate noise.  
 - Separate power domains and supply routing.  
 
--```{seealso}
+```{seealso}
 See {doc}`../mixed_signal/analog_on_top` for integration techniques.
--```
+```
 
 ## Further Reading
 
-- 🌍 [ASIC World – Routing Basics](https://asic-world.com/asic_routing.html)  
-- 🌍 [OpenROAD Documentation – Routing](https://openroad.readthedocs.io/en/latest/user/Routing.html)  
-- 📺 [VSD – Routing Basics (YouTube)](https://www.youtube.com/watch?v=yS3TMVovX-4)  
-- 🌍 [KLayout Documentation](https://www.klayout.de/doc-qt5/about/about.html)  
-- 🌍 [Magic VLSI User Guide](http://opencircuitdesign.com/magic/)  
+- [ASIC World – Routing Basics](https://asic-world.com/asic_routing.html)  
+- [OpenROAD Documentation – Routing](https://openroad.readthedocs.io/en/latest/user/Routing.html)  
+- [VSD – Routing Basics (YouTube)](https://www.youtube.com/watch?v=yS3TMVovX-4)  
+- [KLayout Documentation](https://www.klayout.de/doc-qt5/about/about.html)  
+- [Magic VLSI User Guide](http://opencircuitdesign.com/magic/)  

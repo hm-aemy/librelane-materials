@@ -90,18 +90,18 @@ See {doc}`../mixed_signal/analog_on_top` for details on mixed-signal GDS integra
 ## Tape-out checklist
 
 Before sending the GDS to fabrication:
-1. ✅ All **DRC/LVS/ERC** checks pass.  
-2. ✅ **GDS layer map** matches foundry definitions.  
-3. ✅ **Pin names and coordinates** verified against pad frame or IO ring.  
-4. ✅ **Antenna and density checks** completed.  
-5. ✅ **Documentation and reports** archived with the GDS file.  
+1. All **DRC/LVS/ERC** checks pass.  
+2. **GDS layer map** matches foundry definitions.  
+3. **Pin names and coordinates** verified against pad frame or IO ring.  
+4. **Antenna and density checks** completed.  
+5. **Documentation and reports** archived with the GDS file.  
 
 ---
 
 ## Further Reading
 
-- 🌍 [GDSII File Format Specification](https://en.wikipedia.org/wiki/GDSII)  
-- 🌍 [OpenROAD Documentation – GDS Stream-Out](https://openroad.readthedocs.io/en/latest/user/StreamOut.html)  
-- 🌍 [Magic VLSI – GDSII Export Guide](http://opencircuitdesign.com/magic/gdsii.html)  
-- 🌍 [KLayout – Reading and Writing GDS Files](https://www.klayout.de/doc-qt5/manual/gds.html)  
-- 📺 [VSD – GDSII and Tape-out Basics (YouTube)](https://www.youtube.com/watch?v=W2_GvS6hQl4)  
+- [GDSII File Format Specification](https://en.wikipedia.org/wiki/GDSII)  
+- [OpenROAD Documentation – GDS Stream-Out](https://openroad.readthedocs.io/en/latest/user/StreamOut.html)  
+- [Magic VLSI – GDSII Export Guide](http://opencircuitdesign.com/magic/gdsii.html)  
+- [KLayout – Reading and Writing GDS Files](https://www.klayout.de/doc-qt5/manual/gds.html)  
+- [VSD – GDSII and Tape-out Basics (YouTube)](https://www.youtube.com/watch?v=W2_GvS6hQl4)  

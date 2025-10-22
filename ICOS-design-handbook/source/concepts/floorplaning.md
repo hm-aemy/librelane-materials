@@ -53,7 +53,7 @@ It sets the foundation for power distribution, signal flow, and overall chip per
   - Reports for area utilization and congestion estimates.  
 
 ```{seealso}
-📺 **Video Series – Floorplanning Basics (VSD YouTube)**  
+**Video Series – Floorplanning Basics (VSD YouTube)**  
 - [Part 1](https://www.youtube.com/watch?v=Z1Cxbn5LOYg)  
 - [Part 2](https://www.youtube.com/watch?v=iKGxOVbwi40)  
 - [Part 3](https://www.youtube.com/watch?v=YcwY1PH31qg)  
@@ -98,7 +98,7 @@ For mixed-signal integration, see:
 
 ## Further Reading
 
-- 🌍 [ASIC World – Floorplanning Basics](https://asic-world.com/asic_floorplan.html)  
-- 🌍 [OpenROAD Documentation – Floorplan](https://openroad-flow-scripts.readthedocs.io/en/latest/floorplan.html)  
-- 📺 [VSD – Floorplanning Basics (YouTube)](https://www.youtube.com/watch?v=3t9JykdpHgQ)  
-- 🌍 [KLayout Documentation](https://www.klayout.de/doc-qt5/about/about.html)  
+- [ASIC World – Floorplanning Basics](https://asic-world.com/asic_floorplan.html)  
+- [OpenROAD Documentation – Floorplan](https://openroad-flow-scripts.readthedocs.io/en/latest/floorplan.html)  
+- [VSD – Floorplanning Basics (YouTube)](https://www.youtube.com/watch?v=3t9JykdpHgQ)  
+- [KLayout Documentation](https://www.klayout.de/doc-qt5/about/about.html)  

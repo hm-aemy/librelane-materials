@@ -96,9 +96,9 @@ Outputs: performance distributions and yield estimations.
 
 ## Further Reading
 
-- 🌍 [OpenROAD Documentation – Sign-off & STA](https://openroad.readthedocs.io/en/latest/user/Signoff.html)  
-- 🌍 [Magic VLSI – DRC and LVS](http://opencircuitdesign.com/magic/)  
-- 🌍 [KLayout LVS & DRC Documentation](https://www.klayout.de/doc-qt5/manual/lvs.html)  
-- 🌍 [Netgen – Layout vs. Schematic Comparison](http://opencircuitdesign.com/netgen/)  
-- 🌍 [Verification Academy – Fundamentals of Verification](https://verificationacademy.com/)  
-- 📺 [VSD – Physical Verification Series (YouTube)](https://www.youtube.com/watch?v=cEl6YbDg6xA)  
+- [OpenROAD Documentation – Sign-off & STA](https://openroad.readthedocs.io/en/latest/user/Signoff.html)  
+- [Magic VLSI – DRC and LVS](http://opencircuitdesign.com/magic/)  
+- [KLayout LVS & DRC Documentation](https://www.klayout.de/doc-qt5/manual/lvs.html)  
+- [Netgen – Layout vs. Schematic Comparison](http://opencircuitdesign.com/netgen/)  
+- [Verification Academy – Fundamentals of Verification](https://verificationacademy.com/)  
+- [VSD – Physical Verification Series (YouTube)](https://www.youtube.com/watch?v=cEl6YbDg6xA)  

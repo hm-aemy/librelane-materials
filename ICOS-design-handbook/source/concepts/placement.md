@@ -33,14 +33,14 @@ A good placement ensures efficient routing, minimizes delay, and improves overal
 ![asda](fig/detailed_pl.jpg "asdasd")
 *Schematic view of an OTA designed in Xschem.*
 
--```{seealso}
+```{seealso}
 For practical details, see:
 - {doc}`../digital_flows/openroad/flow_steps`  
 - {doc}`../digital_flows/librelane/flow_steps`  
 
-📺 **Video Resource – Placement Basics (VSD YouTube)**  
+**Video Resource – Placement Basics (VSD YouTube)**  
 [Placement Fundamentals](https://www.youtube.com/watch?v=hVT8pRgr5zg)
--```
+```
 
 ## Placement in analog design
 
@@ -74,7 +74,7 @@ See {doc}`../mixed_signal/analog_on_top` for integration guidelines.
 
 ## Further Reading
 
-- 🌍 [ASIC World – Placement Basics](https://asic-world.com/asic_placement.html)  
-- 🌍 [OpenROAD Documentation – Placement](https://openroad.readthedocs.io/en/latest/user/Placement.html)  
-- 📺 [VSD – Placement Lecture (YouTube)](https://www.youtube.com/watch?v=hVT8pRgr5zg)  
-- 🌍 [KLayout Documentation](https://www.klayout.de/doc-qt5/about/about.html)  
+- [ASIC World – Placement Basics](https://asic-world.com/asic_placement.html)  
+- [OpenROAD Documentation – Placement](https://openroad.readthedocs.io/en/latest/user/Placement.html)  
+- [VSD – Placement Lecture (YouTube)](https://www.youtube.com/watch?v=hVT8pRgr5zg)  
+- [KLayout Documentation](https://www.klayout.de/doc-qt5/about/about.html)  

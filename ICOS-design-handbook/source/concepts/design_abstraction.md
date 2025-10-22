@@ -1,17 +1,12 @@
 # Design Abstractions
 
-Integrated circuit (IC) design is built upon **multiple abstraction levels**, each providing a different view of the system.  
-These abstractions allow designers to handle complexity, moving from a **high-level functional description** down to the **physical layout** ready for fabrication.
-
----
+Integrated circuit (IC) design is built upon multiple abstraction levels, each providing a different view of the system. These abstractions allow designers to handle complexity, moving from a high-level functional description down to the*physical layout ready for fabrication.
 
 ## Why abstractions matter
 
-- They allow designers to focus on the **right level of detail** at each stage.  
-- They separate **functionality** from **implementation details**.  
-- They provide a **common language** between different design tools and flows.  
-
----
+- They allow designers to focus on the right level of detail at each stage.  
+- They separate functionality from implementation details.  
+- They provide a common language between different design tools and flows.  
 
 ## Abstraction levels in digital design
 
@@ -36,8 +31,6 @@ These abstractions allow designers to handle complexity, moving from a **high-le
    - Placement and routing of cells, interconnect, and power networks.  
    - Exported as GDSII for fabrication.  
 
----
-
 ## Abstraction levels in analog design
 
 1. **System level**  
@@ -58,20 +51,8 @@ These abstractions allow designers to handle complexity, moving from a **high-le
    - Transistor geometries, interconnections, matching techniques.  
    - Verified with DRC/LVS before tapeout.  
 
----
-
 ## Digital vs. Analog perspectives
 
-- Digital design benefits from **automation** (synthesis, place & route).  
-- Analog design still relies heavily on **manual design decisions** (topologies, sizing, layout techniques).  
-- Both domains converge in **mixed-signal design**, where analog and digital abstractions coexist.  
-
----
-
-## See Also
-
-```{seealso}
-- {doc}`simulation` for how abstractions are verified at different stages.  
-- {doc}`../digital_flows/openroad/flow_steps` for the digital RTL-to-GDS flow.  
-- {doc}`../analog_flows/xschem_intro` for schematic-level analog design.
-```
+- Digital design benefits from automation (synthesis, place & route).  
+- Analog design still relies heavily on manual design decisions (topologies, sizing, layout techniques).  
+- Both domains converge in mixed-signal design, where analog and digital abstractions coexist.  

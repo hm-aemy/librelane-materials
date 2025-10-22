@@ -1,18 +1,12 @@
 # Specifications and Requirements
 
-Designing an integrated circuit (IC) always begins with a **set of specifications**.  
-These specifications describe *what the circuit must achieve* in terms of functionality, performance, power, and physical constraints.  
-They are the foundation of the entire design flow, guiding decisions from the first schematic to the final layout (GDSII).
-
----
+Designing an integrated circuit (IC) always begins with a set of specifications. These specifications describe what the circuit must achieve in terms of functionality, performance, power, and physical constraints. They are the foundation of the entire design flow, guiding decisions from the first schematic to the final layout (GDSII).
 
 ## Why specifications matter
 
-- 📌 They define the **design goals** before any line of RTL code or schematic is drawn.  
-- 📌 They serve as a **contract** between system architects, designers, and verification engineers.  
-- 📌 They allow **objective evaluation** of the final IC: pass/fail is decided based on the specs.  
-
----
+- They define the **design goals** before any line of RTL code or schematic is drawn.  
+- They serve as a **contract** between system architects, designers, and verification engineers.  
+- They allow **objective evaluation** of the final IC: pass/fail is decided based on the specs.  
 
 ## Typical specifications in digital design
 
@@ -21,8 +15,6 @@ They are the foundation of the entire design flow, guiding decisions from the fi
 - **Power consumption**: dynamic and leakage power budgets.  
 - **I/O and interfaces**: voltage levels, supported protocols (UART, SPI, I²C, etc.).  
 - **Reliability**: operating temperature, ESD protection, lifetime targets.  
-
----
 
 ## Typical specifications in analog design
 
@@ -33,23 +25,15 @@ They are the foundation of the entire design flow, guiding decisions from the fi
 - **Accuracy**: offset voltage, bias currents, reference stability.  
 - **Output swing / headroom**: limits set by technology and supply voltage.  
 
----
-
 ## From specs to constraints
 
-In practice, specifications are **translated into constraints** used by tools and designers:
+In practice, specifications are translated into constraints used by tools and designers:
 
 - Digital flows → timing constraints (SDC files), power targets, floorplan area.  
 - Analog flows → bias conditions, device sizing rules, performance corners.  
 
-These constraints ensure that the automated flow (synthesis, place & route, simulation) is always evaluated against the original design goals.
-
----
+These constraints ensure that the automated flow ({doc}`synthesis <synthesis>`, {doc}`placement <placement>` & {doc}`routing <routing>`, {doc}`simulation <simulation>`) is always evaluated against the original design goals.
 
 ## Key takeaway
 
-Specifications are not optional: they are the **starting point and the final checkpoint** of any IC design.  
-Well-defined specs make the difference between a successful tapeout and endless iterations.
-
-```{note}
-Later sections (e.g. {doc}`../digital_flows/openroad/flow_steps` or {doc}`../analog_flows/xschem_intro`) will show how these specifications are encoded and validated within each flow.
+Specifications are not optional: they are the starting point and the final checkpoint of any IC design. Well-defined specs make the difference between a successful tapeout and endless iterations.
