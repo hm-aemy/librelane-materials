@@ -3,12 +3,8 @@
 {
 	"name": "Markdown Editing",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
-	},
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -29,7 +25,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt update && sudo apt install -y texlive-full"
+	"postCreateCommand": "sudo apt update && sudo apt install -y pandoc texlive-full"
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
