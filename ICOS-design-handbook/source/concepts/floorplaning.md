@@ -121,10 +121,13 @@ For schematic-driven analog layout, see:
 
 ```{seealso}
 For mixed-signal integration, see:  
+```
+
+## Further Reading
+
 - 1001
 - 1002
 - 1006
 - 1007
 - 1017
 - 1018
-```
