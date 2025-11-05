@@ -659,43 +659,6 @@ Timing signoff, or Static Timing Analysis (STA), verifies a chip's timing perfor
 - Log files: These files contain information about the analysis process, including any warnings or errors encountered by the tool.
 
 
-## Signoff / Verification: GDSII Streaming Out
-
-**GDSII Streaming Out**
-
-GDSII streaming out is the process of generating a GDSII file, the standard format from a design tool for chip layout data. The input is the final, verified physical layout from the design stage, while the output is the GDSII file itself, which contains geometric shapes, layer information, and other data for manufacturing. This process is a crucial "tapeout" step before sending the design to a foundry for fabrication.
-
-
-## Signoff / Verification: GDSII Streaming Out
-
-**Key aspects and considerations**
-
-- Tapeout: Streaming out the GDSII file is the final step in the design process, often called "tapeout".
-- Layer mapping: It is critical to correctly map technology layers during the streaming process. For example, you may need to adjust a layermap file to remove non-silicon layers that are not intended for manufacturing.
-- Hierarchy: GDSII files support a hierarchy of cells, which is the structure of the design.
-- Data size: GDSII files can be very large, and optimizations may be applied to reduce their size for faster processing.
-- Text conversion: Text elements are not a standard part of GDSII and may need to be converted to polygons to be correctly interpreted by the foundry, as explained by LayoutEditor documentation.
-- Alternative formats: The OASIS format is an emerging alternative to GDSII that offers smaller file sizes.
-
-
-## Signoff / Verification: GDSII Streaming Out
-
-**Input**
-
-- Final physical layout: This is the output of the physical design stage, which converts a high-level design into a physical layout through tools like place and route.
-- Verified design: The layout must be verified through checks like Design Rule Checking (DRC) and Layout Versus Schematic (LVS) to ensure it meets all design rules and specifications.
-- Design data: The input includes all the geometric information, hierarchical structure, and layer data for the chip design.
-
-
-## Signoff / Verification: GDSII Streaming Out
-
-**Output**
-
-- GDSII file: This is the final binary file that is sent to the chip foundry.
-- Standard for IC manufacturing: The GDSII format is the industry standard for exchanging layout data with foundries.
-- Physical manufacturing data: The file contains all the information needed for fabrication, including the physical layout of the chip's layers, which is used to create the masks.
-
-
 ## Signoff / Verification: Physical Signoff (DRC, LVS)
 
 **Physical Signoff (DRC, LVS)**
@@ -745,6 +708,43 @@ The inputs are the finalized physical layout files and technology data from the 
 - Antenna violation reports: Check for potential damage to transistors during fabrication.
 - Final signoff reports: Comprehensive reports indicating the design is clean and ready for manufacturing.
 - Verified layout data: The final GDSII or similar file, which is the "golden" data that is sent to the foundry to create the manufacturing masks.
+
+
+## Signoff / Verification: GDSII Streaming Out
+
+**GDSII Streaming Out**
+
+GDSII streaming out is the process of generating a GDSII file, the standard format from a design tool for chip layout data. The input is the final, verified physical layout from the design stage, while the output is the GDSII file itself, which contains geometric shapes, layer information, and other data for manufacturing. This process is a crucial "tapeout" step before sending the design to a foundry for fabrication.
+
+
+## Signoff / Verification: Tapeout (GDSII Streaming Out)
+
+**Key aspects and considerations**
+
+- Tapeout: Streaming out the GDSII file is the final step in the design process, often called "tapeout".
+- Layer mapping: It is critical to correctly map technology layers during the streaming process. For example, you may need to adjust a layermap file to remove non-silicon layers that are not intended for manufacturing.
+- Hierarchy: GDSII files support a hierarchy of cells, which is the structure of the design.
+- Data size: GDSII files can be very large, and optimizations may be applied to reduce their size for faster processing.
+- Text conversion: Text elements are not a standard part of GDSII and may need to be converted to polygons to be correctly interpreted by the foundry, as explained by LayoutEditor documentation.
+- Alternative formats: The OASIS format is an emerging alternative to GDSII that offers smaller file sizes.
+
+
+## Signoff / Verification: GDSII Streaming Out
+
+**Input**
+
+- Final physical layout: This is the output of the physical design stage, which converts a high-level design into a physical layout through tools like place and route.
+- Verified design: The layout must be verified through checks like Design Rule Checking (DRC) and Layout Versus Schematic (LVS) to ensure it meets all design rules and specifications.
+- Design data: The input includes all the geometric information, hierarchical structure, and layer data for the chip design.
+
+
+## Signoff / Verification: GDSII Streaming Out
+
+**Output**
+
+- GDSII file: This is the final binary file that is sent to the chip foundry.
+- Standard for IC manufacturing: The GDSII format is the industry standard for exchanging layout data with foundries.
+- Physical manufacturing data: The file contains all the information needed for fabrication, including the physical layout of the chip's layers, which is used to create the masks.
 
 
 
