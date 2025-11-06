@@ -83,8 +83,8 @@ openroad -gui results/floorplanning/my_design.def
 ```
 ## Expected Outputs
 
-- DEF file: results/floorplanning/<design>.def
-- LEF file: results/floorplanning/<design>.lef
+- DEF file: results/floorplanning/&lt;design&gt;.def
+- LEF file: results/floorplanning/&lt;design&gt;.lef
 - PDN reports: reports/floorplanning/pdn.log
 - Log files: logs/floorplanning/openroad.log
 

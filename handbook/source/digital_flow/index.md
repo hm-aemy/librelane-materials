@@ -54,11 +54,3 @@ Throughout the flow, several artifacts are produced and reused between stages:
 
 >  *The following subsections describe how each open-source flow (OpenROAD-Flow-Scripts, LibreLane, etc.) executes these same stages automatically or manually.*
 
-
-```{toctree}
-:glob:
-:hidden:
-
-librelane/index.md
-OpenROAD-Flow-Script/index.md
-```

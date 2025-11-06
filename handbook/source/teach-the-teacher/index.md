@@ -36,14 +36,3 @@ This chapter contains the following sections:
 5. {doc}`resources` — open references, courses, and communities.  
 
 Each section is designed to connect directly with the conceptual and flow chapters in this handbook.
-
-
-```{toctree}
-:hidden:
-
-learning_objectives.md
-course_structure.md
-suggested_problems.md
-assessment_guidelines.md
-resources.md
-``` 
