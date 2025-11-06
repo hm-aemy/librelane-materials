@@ -75,8 +75,8 @@ klayout results/gds-export/my_design.gds
 ```
 ## Expected Outputs
 
-- Final GDSII layout: results/gds-export/<design>.gds
-- Final LEF abstract: results/gds-export/<design>.lef
+- Final GDSII layout: results/gds-export/&lt;design&gt;.gds
+- Final LEF abstract: results/gds-export/&lt;design&gt;.lef
 - XOR report: reports/gds-export/xor_report.rpt
 - Magic log: logs/gds-export/magic.log
 - KLayout log: logs/gds-export/klayout.log

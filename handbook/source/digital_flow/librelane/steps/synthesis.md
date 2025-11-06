@@ -76,8 +76,8 @@ You can inspect synthesis logs, timing reports, and unmapped-cell summaries ther
 
 ## Expected Outputs
 
-- Gate-level netlist: results/synthesis/<design>.synthesis.v
-- JSON netlist: results/synthesis/<design>.json
+- Gate-level netlist: results/synthesis/&lt;design&gt;.synthesis.v
+- JSON netlist: results/synthesis/&lt;design&gt;.json
 - Yosys log: logs/synthesis/yosys.log
 - Timing reports (OpenROAD): reports/synthesis/sta_pre_pnr.rpt
 

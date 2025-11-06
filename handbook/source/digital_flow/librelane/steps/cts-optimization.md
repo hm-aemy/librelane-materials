@@ -78,8 +78,8 @@ openroad -gui results/cts-optimization/my_design.def
 ```
 ## Expected Outputs
 
-- Post-CTS DEF file: results/cts-optimization/<design>.def
-- Updated Verilog netlist: results/cts-optimization/<design>.v
+- Post-CTS DEF file: results/cts-optimization/&lt;design&gt;.def
+- Updated Verilog netlist: results/cts-optimization/&lt;design&gt;.v
 - CTS reports: reports/cts-optimization/cts_report.rpt
 - Timing reports: reports/cts-optimization/sta_post_cts.rpt
 - OpenROAD logs: logs/cts-optimization/openroad.log

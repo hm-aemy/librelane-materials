@@ -93,8 +93,8 @@ logs/routing/
 ```
 ## Expected Outputs
 
-- Routed DEF: results/routing/<design>.def
-- Routed GDS (optional): results/routing/<design>.gds
+- Routed DEF: results/routing/&lt;design&gt;.def
+- Routed GDS (optional): results/routing/&lt;design&gt;.gds
 - Antenna reports: reports/routing/antenna.rpt
 - Wirelength statistics: reports/routing/wirelength.rpt
 - DRC summary: reports/routing/drc_summary.rpt
