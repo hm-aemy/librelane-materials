@@ -153,6 +153,7 @@ Static Analysis: RTL linting uses linter tools to analyze the RTL source code wi
 - Rule-based code review: Specialized linting tools review and improve code based on predefined rules to ensure that the code complies with coding guidelines, promoting readability and reusability.
 - This makes it a fundamental step in ensuring the robustness, i.e., functionality, performance, and reliability of the design.
 
+![RTL Linting](figures/RTLLinting.jpg)
 
 ## RTL Synthesis: RTL Linting
 
@@ -197,6 +198,7 @@ RTL Synthesis: RTL synthesis in chip design converts register-transfer-level (RT
 - Technology Library: The technology-specific library contains information on logic gates, memory, and other components required for production.
 - Constraints: Specifications for performance, power consumption, and physical size (area) are provided to the synthesis tool as design constraints.
 
+![RTL Synthesis](figures/RTLSynthesis.jpg)
 
 ## RTL Synthesis: RTL Synthesis
 
@@ -256,6 +258,7 @@ Technology mapping translates a technology-independent functional (generic) netl
 
 This, by finding the best way to realize the abstract logic using the available physical gates from a given library, which contains pre-defined, optimized logic gates from a particular manufacturing process. The output is a so called mapped netlist composed exclusively of gates from that library. 
 
+![Technology Mapping](figures/TechnologyMapping.jpg)
 
 ## RTL Synthesis: Technology-Mapping
 
