@@ -19,9 +19,9 @@ entries:
 - file: tools/index
   entries:
   - file: tools/OpenROAD/index
-  - file: yosys
-  - file: xschem
-  - file: klayout
+  - file: tools/yosys
+  - file: tools/xschem
+  - file: tools/klayout
 - file: digital_flow/index
   entries:
   - file: digital_flow/librelane/index
