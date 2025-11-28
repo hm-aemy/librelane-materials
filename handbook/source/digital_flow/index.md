@@ -34,7 +34,7 @@ Throughout the flow, several artifacts are produced and reused between stages:
 
 | Artifact | Produced by | Consumed by |
 |:--|:--|:--|
-| RTL (`.v`, `.sv`) | Designer | Synthesis, Simulation |
+| RTL (`.v`, `.sv`, `.vhd`) | Designer | Synthesis, Simulation |
 | Constraints (`.sdc`) | Designer | Synthesis, STA |
 | Gate-level netlist | Synthesis | Floorplanning, Placement |
 | DEF/LEF | Physical design | Routing, Verification |
@@ -45,7 +45,7 @@ Throughout the flow, several artifacts are produced and reused between stages:
 
 | Stage | Typical Tools |
 |:--|:--|
-| Simulation | Verilator, Icarus Verilog, GTKWave |
+| Simulation | Verilator, Icarus Verilog, GTKWave, Surfer |
 | Synthesis | Yosys |
 | Floorplanning / Placement / Routing | OpenROAD |
 | Verification (DRC/LVS) | Magic, KLayout, Netgen |

@@ -19,7 +19,7 @@ Simulation bridges **specifications** and **implementation**, guiding iterative 
 | Level | Description | Typical Tools |
 |:--|:--|:--|
 | **Behavioral / RTL** | Logical verification of functionality using HDL (Verilog/VHDL). | Verilator, Icarus Verilog, GHDL |
-| **Gate-level** | Timing-aware simulation of synthesized netlists. | Verilator, GTKWave |
+| **Gate-level** | Timing-aware simulation of synthesized netlists. | Verilator |
 | **Transistor-level** | Device-level analysis using circuit equations. | Ngspice, Xyce |
 | **Post-layout** | Includes parasitics for realistic performance prediction. | Ngspice, Magic extraction, KLayout xRC |
 | **Mixed-signal** | Co-simulation of analog and digital blocks together. | Ngspice + Verilator, Xyce + Icarus |
@@ -81,7 +81,12 @@ module testbench;
 endmodule
 ```
 
-This testbench toggles the clock and reset signals, recording all transitions to a .vcd file, which can then be inspected with Surfer to verify correct counting behavior.
+This testbench toggles the clock and reset signals 16 times..
+
+
+### Viewing Simulation Results
+
+While the simulator is running, it stores the value of every signal in the design over time. These signal values are written to a `.vcd` or `.fst` file which can then be loaded in a waveform viewer surch as [Surfer](https://surfer-project.org) or [GTKWave](https://gtkwave.sourceforge.net/).
 
 ![asda](fig/counter_vcd.png "asdasd")
 *Simulation results*

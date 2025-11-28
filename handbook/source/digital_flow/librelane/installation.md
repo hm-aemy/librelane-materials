@@ -7,108 +7,9 @@ To install the LibreLane Flow, you need the **Nix package manager**, which is av
 - Linux and
 - macOS
 
-Windows users have to use the _Windows Subsystem for Linux_ and install the Nix package manager via WSL (Linux).
+Windows users have to use the _Windows Subsystem for Linux_ and install the Nix package manager via WSL (Linux). See [Installing the Windows Subsystem for Linux](#installing-the-windows-subsystem-for-linux) section for instructions.
 
-The following shows the setup process for Windows systems; the steps are similar for macOS and Linux.
-
-### Installing the Windows Subsystem for Linux
-
-#### Installing WSL
-
-1. Installing the Windows Subsystem for Linux (WSL).
-
-    To do this, open a Windows terminal and enter one of the following two commands:
-
-    _wsl --install_
-
-    _wsl.exe –install_
-
-    This installation command installs an Ubuntu Linux distribution version 2 (WSL 2) by default, which is generally the most widely used and best supported.
-
-    ![WSLInstall](Bilder5/WSLInstall.jpg)
-
-2. However, any other Linux distribution can also be installed using the following command:
-
-    _wsl --install -d_ _&lt;distribution name&gt;_
-
-    While you must enter a username and password the first time you start the program (the password is not displayed for security reasons!), there is no limit to the number of different distributions that can be installed.
-
-| **&lt;Distribution&gt;** | **Description** |
-| --- | --- |
-| Ubuntu | One of the most popular Linux distributions, known for its user-friendliness and large community. |
-| Debian | Another popular distribution known for its stability and security. |
-| Kali Linux | A distribution specifically designed for security audits and penetration testing. |
-| openSUSE | A distribution known for its advanced tooling and customizability. |
-| SUSE Linux Enterprise Server | A commercial distribution from SUSE optimized for enterprise use. |
-| AlmaLinux | A free, community-supported distribution based on RHEL. |
-| Fedora-Remix for WSL | A distribution created by Fedora specifically designed for WSL. |
-| Alpine WSL | A lightweight, security-focused distribution. |
-| Pengwin Enterprise | A commercial distribution based on OpenSUSE and developed for enterprises. |
-| Pengwin on WSL | A Pengwin distribution optimized for use with WSL. |
-| Mariner WSL | A distribution developed by Microsoft optimized for use with WSL. |
-| Ubuntu-18.04 | An older version of Ubuntu that may be useful for certain applications. |
-| Ubuntu-20.04 | An older version of Ubuntu that may be useful for certain applications. |
-| Ubuntu-22.04 | An older version of Ubuntu that may be useful for certain applications. |
-
-#### Updates and Version Upgrades for WSL
-
-3. If you already have the Windows Subsystem Linux operating system installed, you can determine which Linux distribution and version is installed. To do this, you can use
-
-    _wsl -l -v_
-
-    The Ubuntu distribution in the WSL 2 version is preferred.
-4. You can then either install the desired distribution using the above command, or update existing distributions using the following command, where sudo requires administrator privileges:
-
-    _sudo apt update && sudo apt upgrade_
-
-    You can also upgrade or downgrade to the desired version using the following commands:
-
-    _wsl --set-version &lt;distribution name&gt; 2_
-
-    _wsl --set-version &lt;distribution name&gt; 1_
-
-    In general, however, you will not downgrade WSL 2 to WSL 1.
-
-#### Starting WSL
-
-5. To start the Windows Subsystem for Linux, use
-
-    _wsl -d &lt;distribution name&gt;_
-
-    _wsl.exe -d &lt;distribution name&gt;_
-
-    ![WSLStart](Bilder5/WSLStart.jpg)
-
-    Since different distributions can be installed, this opens the desired one.
-
-#### Working in WSL
-
-6. It should be noted that WSL (Windows Subsystem for Linux) itself does not have a "Windows mode." WSL is an environment that allows Linux distributions to run natively on Windows.
-
-    Therefore, it is important to have knowledge of the Linux command register in order to use WSL from the prompt. See:
-
-    https://wiki.ubuntuusers.de/Shell/Befehls%C3%BCbersicht/
-7. To demonstrate that Windows Subsystem for Linux (WSL) is a real operating system, we'll show you how to access Microsoft Visual Studio Code (VS Code) as an example.
-
-    If you don't have VS Code installed yet, please do so. The download is available at the following link:
-
-    <https://code.visualstudio.com/download>
-
-    VS Code is a versatile development environment that can be expanded almost infinitely using extensions. After installing it, open VS Code from the WSL terminal with:
-
-    _code ._
-
-    ![VSCode](Bilder5/VSCode1.jpg)
-
-    For example, using the simple markup language Markdown, you can easily generate a professional text set.
-
-    ![VSCode](Bilder5/VSCode2.jpg)
-#### Closing WSL
-
-8. To exit WSL, type
-
-_exit_
-
+After you have installed WSL or are on MacOS or Linux, you can proceed by installing the nix package manager
 
 #### Installing the nix package manager
 
@@ -203,3 +104,79 @@ are installed, which are required for a reference flow ("Classic").
     ![Smoketest](Bilder5/SmokeTest.jpg)
 
 You have now completed your first "LibreLane Flow."
+
+
+### Installing the Windows Subsystem for Linux
+
+#### Installing WSL
+
+1. Installing the Windows Subsystem for Linux (WSL).
+
+    To do this, open a Windows terminal and enter one of the following two commands:
+
+    _wsl --install_
+
+    _wsl.exe –install_
+
+    This installation command installs an Ubuntu Linux distribution version 2 (WSL 2) by default, which is generally the most widely used and best supported.
+
+    ![WSLInstall](Bilder5/WSLInstall.jpg)
+
+#### Updates and Version Upgrades for WSL
+
+3. If you already have the Windows Subsystem Linux operating system installed, you can determine which Linux distribution and version is installed. To do this, you can use
+
+    _wsl -l -v_
+
+    The Ubuntu distribution in the WSL 2 version is preferred.
+4. You can then either install the desired distribution using the above command, or update existing distributions using the following command, where sudo requires administrator privileges:
+
+    _sudo apt update && sudo apt upgrade_
+
+    You can also upgrade or downgrade to the desired version using the following commands:
+
+    _wsl --set-version &lt;distribution name&gt; 2_
+
+    _wsl --set-version &lt;distribution name&gt; 1_
+
+    In general, however, you will not downgrade WSL 2 to WSL 1.
+
+#### Starting WSL
+
+5. To start the Windows Subsystem for Linux, use
+
+    _wsl -d &lt;distribution name&gt;_
+
+    _wsl.exe -d &lt;distribution name&gt;_
+
+    ![WSLStart](Bilder5/WSLStart.jpg)
+
+    Since different distributions can be installed, this opens the desired one.
+
+#### Working in WSL
+
+6. It should be noted that WSL (Windows Subsystem for Linux) itself does not have a "Windows mode." WSL is an environment that allows Linux distributions to run natively on Windows.
+
+    Therefore, it is important to have knowledge of the Linux command line in order to use WSL from the prompt. See:
+
+    https://wiki.ubuntuusers.de/Shell/Befehls%C3%BCbersicht/
+7. To demonstrate that Windows Subsystem for Linux (WSL) is a real operating system, we'll show you how to access Microsoft Visual Studio Code (VS Code) as an example.
+
+    If you don't have VS Code installed yet, please do so. The download is available at the following link:
+
+    <https://code.visualstudio.com/download>
+
+    VS Code is a versatile development environment that can be expanded almost infinitely using extensions. After installing it, open VS Code from the WSL terminal with:
+
+    _code ._
+
+    ![VSCode](Bilder5/VSCode1.jpg)
+
+    For example, using the simple markup language Markdown, you can easily generate a professional text set.
+
+    ![VSCode](Bilder5/VSCode2.jpg)
+#### Closing WSL
+
+8. To exit WSL, type
+
+_exit_
