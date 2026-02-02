@@ -76,8 +76,8 @@ openroad -gui results/placement/my_design.def
 ```
 ## Expected Outputs
 
-- DEF file: results/placement/<design>.def
-- Verilog header: results/placement/<design>.vh
+- DEF file: results/placement/&lt;design&gt;.def
+- Verilog header: results/placement/&lt;design&gt;.vh
 - Timing report: reports/placement/sta_mid_pnr.rpt
 - Logs: logs/placement/openroad.log
 - Checker reports: reports/placement/power_grid_violations.rpt

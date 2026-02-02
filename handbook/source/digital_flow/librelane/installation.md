@@ -29,7 +29,7 @@ The following shows the setup process for Windows systems; the steps are similar
 
 2. However, any other Linux distribution can also be installed using the following command:
 
-    _wsl --install -d_ _<distribution name>_
+    _wsl --install -d_ _&lt;distribution name&gt;_
 
     While you must enter a username and password the first time you start the program (the password is not displayed for security reasons!), there is no limit to the number of different distributions that can be installed.
 
@@ -63,9 +63,9 @@ The following shows the setup process for Windows systems; the steps are similar
 
     You can also upgrade or downgrade to the desired version using the following commands:
 
-    _wsl --set-version <distribution name> 2_
+    _wsl --set-version &lt;distribution name&gt; 2_
 
-    _wsl --set-version <distribution name> 1_
+    _wsl --set-version &lt;distribution name&gt; 1_
 
     In general, however, you will not downgrade WSL 2 to WSL 1.
 
@@ -73,9 +73,9 @@ The following shows the setup process for Windows systems; the steps are similar
 
 5. To start the Windows Subsystem for Linux, use
 
-    _wsl -d \<distribution name>_
+    _wsl -d &lt;distribution name&gt;_
 
-    _wsl.exe -d \<distribution name>_
+    _wsl.exe -d &lt;distribution name&gt;_
 
     ![WSLStart](Bilder5/WSLStart.jpg)
 

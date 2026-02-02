@@ -72,7 +72,7 @@ openroad -gui results/parasitic-extraction/my_design.def
 ```
 ## Expected Outputs
 
-- SPEF file: results/parasitic-extraction/<design>.spef
+- SPEF file: results/parasitic-extraction/&lt;design&gt;.spef
 - Post-layout timing report: reports/parasitic-extraction/sta_post_pnr.rpt
 - IR drop report: reports/parasitic-extraction/ir_drop.rpt
 - OpenROAD log: logs/parasitic-extraction/openroad.log

@@ -112,10 +112,3 @@ Each of the following sections corresponds to one major stage of the LibreLane C
     76. Checker.MaxSlewViolations
     77. Checker.MaxCapViolations
     78. Misc.ReportManufacturability
-
-```{toctree}
-:glob:
-:hidden:
-
-installation.md
-running.md
