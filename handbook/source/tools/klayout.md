@@ -100,7 +100,7 @@ klayout -b -r scripts/lvs_run.lylvs \
 ```
 
 ### Typical setup file:
-provided in $PDK_ROOT/<pdk>/libs.tech/klayout/lvs/.
+provided in $PDK_ROOT/$pdk/libs.tech/klayout/lvs/.
 
 Outputs:
 
@@ -151,11 +151,11 @@ klayout -b -r myscript.py
 ## Example sign-off flow using KLayout
 | Step            | Tool             | Output                  |
 | --------------- | ---------------- | ----------------------- |
-| Routing         | OpenROAD         | `chip.def` / `chip.gds` |
+| Routing         | OpenROAD         | chip.def / chip.gds |
 | GDS inspection  | KLayout          | visual check            |
-| DRC check       | KLayout          | `drc.lyrdb`             |
-| LVS comparison  | KLayout / Netgen | `lvs.lyrdb`             |
-| Sign-off export | KLayout          | final `chip.gds`        |
+| DRC check       | KLayout          | drc.lyrdb             |
+| LVS comparison  | KLayout / Netgen | lvs.lyrdb             |
+| Sign-off export | KLayout          | final chip.gds        |
 
 
 ## Best practices
