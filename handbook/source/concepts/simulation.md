@@ -32,8 +32,8 @@ They are fast, logic-based, and can run thousands of test vectors efficiently.
 ### Process
 1. Write the RTL design (Verilog/VHDL).  
 2. Create a **testbench** that applies inputs and monitors outputs.  
-3. Run the simulation using tools like **Verilator** or **Icarus Verilog**.  
-4. Visualize waveforms using **GTKWave** or similar viewers.  
+3. Run the simulation using tools like [**Verilator**](https://verilator.org/guide/latest/) or **Icarus Verilog**.  
+4. Visualize waveforms using [**Surfer**](https://surfer-project.org/) or similar viewers.  
 
 ### Example — Simulating a Counter in System Verilog
 
