@@ -4,7 +4,13 @@ LibreLane is a powerful and versatile infrastructure library that enables the co
 
 ![asda](fig/librelane_flow.png "asdasd")
 
-## Librelane Classic Stepsd
+## Config File
+
+The LibreLane configuration file defines how the physical design flow should be executed for a specific project. It contains the key design parameters — such as project name, input sources (RTL, constraints), selected PDK, floorplanning rules, and options for synthesis, placement, routing, and verification — allowing the standard flow to be tailored to the needs of a particular chip. It acts as the central control interface between the design and the flow tools, ensuring the process is reproducible and adjustable without modifying the internal implementation of the tools.
+
+Detailed information about the librelane configuration file in [here](https://librelane.readthedocs.io/en/latest/reference/configuration.html).
+
+## Classic Flow Steps
 
 Each of the following sections corresponds to one major stage of the LibreLane Classic flow. Click on each stage title to explore its specific configuration, tools, and outputs.
 
