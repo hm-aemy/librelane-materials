@@ -48,14 +48,10 @@ Placement is performed in multiple stages to gradually refine the position of al
 
 ![asda](fig/detailed_pl.jpg "asdasd")
 
-```{seealso}
-For practical details, see:
-- {doc}`../digital_flows/openroad/flow_steps`  
-- {doc}`../digital_flows/librelane/flow_steps`  
+More information:
 
 **Video Resource – Placement Basics (VSD YouTube)**  
 [Placement Fundamentals](https://www.youtube.com/watch?v=hVT8pRgr5zg)
-```
 
 ## Placement in analog design
 
@@ -73,19 +69,10 @@ For practical details, see:
   - Layout drafts with critical device placement.  
   - Guidelines for later routing.  
 
-```{seealso}
-For examples of schematic-driven analog layout, see:
-- {doc}`../analog_flows/magic_layout`
-```
-
 ## Mixed-signal considerations
 
 - Isolation between noisy digital blocks and sensitive analog sections.  
 - Placement of decoupling capacitors and power domains.  
 - Ensuring short interconnects for analog critical paths.  
-
-```{seealso}
-See {doc}`../mixed_signal/analog_on_top` for integration guidelines.
-```
 
 ## Further Reading

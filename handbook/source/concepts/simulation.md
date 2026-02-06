@@ -86,11 +86,11 @@ This testbench toggles the clock and reset signals, recording all transitions to
 ![asda](fig/counter_vcd.png "asdasd")
 *Simulation results*
 
-```{seealso}
+More information:
+
 [Verilator Documentation](https://verilator.org/)  
 [Icarus Verilog Documentation](http://iverilog.icarus.com/)  
 [VSD – Digital Simulation Basics (YouTube)](https://www.youtube.com/watch?v=7JQh3HTuPJk)
-```
 
 ## Analog simulation
 
@@ -140,11 +140,12 @@ plot vdb(vout)
 This SPICE simulation models a simple NMOS amplifier.
 The output waveform shows how the transistor amplifies and inverts the input signal over time.
 
-```{seealso}
+More information:
+
 [Ngspice Documentation](https://ngspice.sourceforge.io/docs.html)  
 [Xschem Tutorial – Analog Simulation](http://xschem.sourceforge.net/stefan/index.html)  
 [VSD – SPICE Simulation for Beginners (YouTube)](https://www.youtube.com/watch?v=0sZC5nZKm4Y)
-```
+
 
 ### Post-layout and mixed-signal simulation
 
@@ -154,8 +155,3 @@ These simulations include resistance (R) and capacitance (C) effects from the la
 - Digital post-layout: performed with timing back-annotation (SDF, SPEF).
 - Analog post-layout: run on extracted SPICE netlists from Magic or KLayout.
 - Mixed-signal: combines both, using co-simulation frameworks (e.g., Ngspice + Verilator).
-
-```{seealso}
-- {doc}`../concepts/parasitics_extraction`
-- {doc}`../mixed_signal/analog_on_top`
-```

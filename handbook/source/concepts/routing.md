@@ -47,14 +47,10 @@ Routing is typically divided into two main stages that progressively refine sign
 
 ![asda](fig/routing.jpg "asdasd")
 
-```{seealso}
-For practical implementation examples, see:
-- {doc}`../digital_flows/openroad/flow_steps`
-- {doc}`../digital_flows/librelane/flow_steps`
+More information:
 
 **Video Resource – Routing Fundamentals (VSD YouTube)**  
 [Routing Basics](https://www.youtube.com/watch?v=yS3TMVovX-4)
-```
 
 ## Routing in analog design
 
@@ -73,21 +69,11 @@ For practical implementation examples, see:
   - Completed layout interconnects.  
   - DRC/LVS-clean layout ready for parasitic extraction.  
 
-```{seealso}
-For schematic-driven analog layout routing, see:
-- {doc}`../analog_flows/magic_layout`
-- {doc}`../analog_flows/klayout_drc_lvs`
-```
-
 ## Mixed-signal considerations
 
 - Isolation between analog and digital routing domains.
 - Use of guard rings and shielding to reduce substrate noise.
 - Separate power domains and supply routing.
 - Critical nets (e.g., reference voltages, clocks) should avoid crossing noisy digital regions.
-
-```{seealso}
-See {doc}`../mixed_signal/analog_on_top` for integration techniques.
-```
 
 ## Further Reading

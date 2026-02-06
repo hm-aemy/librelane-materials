@@ -33,12 +33,6 @@ These parasitics can significantly affect timing, gain, noise, and overall circu
   - Parasitic RC files (`.spef`, `.sdf`, `.dspf`).  
   - Updated timing reports including RC effects.  
 
--```{seealso}
-For practical examples of parasitic extraction in digital flows, see:
-- {doc}`../digital_flows/openroad/flow_steps`
-- {doc}`../digital_flows/librelane/flow_steps`
--```
-
 ---
 
 ## Parasitics in analog design
@@ -55,12 +49,6 @@ For practical examples of parasitic extraction in digital flows, see:
   - Extracted SPICE netlist used for **post-layout simulations**.  
   - Enables accurate matching between schematic and layout behavior.  
 
--```{seealso}
-For analog extraction workflows, see:
-- {doc}`../analog_flows/magic_layout`
-- {doc}`../analog_flows/klayout_drc_lvs`
--```
-
 ---
 
 ## Mixed-signal considerations
@@ -68,11 +56,6 @@ For analog extraction workflows, see:
 - Coupling between digital and analog nets can inject **substrate noise**.  
 - Mixed-signal extraction includes **substrate and well models** for isolation analysis.  
 - Ensures analog performance remains stable under switching activity.  
-
--```{seealso}
-For mixed-signal verification, see:
-- {doc}`../mixed_signal/verification_mixed`
--```
 
 ---
 

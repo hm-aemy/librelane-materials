@@ -104,16 +104,10 @@ This representation is what is later used for placement, routing, and timing ver
 ![asda](fig/full_adder_netlist.png "asdasd")
 *Visualization of the synthesized netlist of the 4-bit full adder.*
 
-```{seealso}
+More Information:
+
 [Digital Synthesis Basics – VSD YouTube Lecture](https://www.youtube.com/watch?v=TR3IMS_TYxw)  
 This video provides an accessible introduction to **logic synthesis** and how RTL is transformed into a gate-level netlist.
-```
-
-```{seealso}
-For step-by-step instructions on how synthesis is executed in open-source flows, see:  
-- {doc}`../digital_flows/openroad/flow_steps`  
-- {doc}`../digital_flows/librelane/flow_steps`
-```
 
 ## Analog netlist extraction
 
@@ -152,11 +146,6 @@ M8 vss iref iref vss sg13_lv_nmos w=6u l=2u ng=1 m=1
 ```
 This SPICE netlist is then used for electrical simulation (gain, bandwidth, noise, etc.) and for LVS comparison against the final layout to ensure consistency.
 
-```{seealso}
-For details on schematic-level netlist extraction, see:  
-- {doc}`../analog_flows/xschem_intro`
-```
-
 ## Mixed-Signal perspective
 
 - Digital blocks → synthesized into gate-level netlists.  
@@ -164,8 +153,3 @@ For details on schematic-level netlist extraction, see:
 - Both netlists are integrated at the **top level** to form a complete mixed-signal system.  
 
 The mixed-signal integration step ensures correct pin naming, voltage domains, and timing alignment between the analog and digital domains.
-
-```{seealso}
-For integration of analog and digital netlists, see:  
-- {doc}`../mixed_signal/analog_on_top`
-```

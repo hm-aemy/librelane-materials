@@ -23,8 +23,7 @@ It sets the foundation for power distribution, signal flow, and overall chip per
 
 ![asda](fig/chip_sizes.jpg "asdasd")
 
-```{seealso}
-```
+More information:
 
 ### Padring
 
@@ -81,7 +80,8 @@ A well-structured PDN minimizes IR drop, electromigration, and noise coupling be
   - Floorplan DEF/LEF files.  
   - Reports for area utilization and congestion estimates.  
 
-```{seealso}
+More information:
+
 **Video Series – Floorplanning Basics (VSD YouTube)**  
 - [Part 1](https://www.youtube.com/watch?v=Z1Cxbn5LOYg)  
 - [Part 2](https://www.youtube.com/watch?v=iKGxOVbwi40)  
@@ -90,11 +90,6 @@ A well-structured PDN minimizes IR drop, electromigration, and noise coupling be
 - [Part 5](https://www.youtube.com/watch?v=IG0EWRcDkl8)  
 - [Part 6](https://www.youtube.com/watch?v=3n_v_1HRlzM)  
 - [Part 7](https://www.youtube.com/watch?v=HVeSgMS8-SU) 
-
-For detailed steps on digital floorplanning, see:  
-- {doc}`../digital_flow/librelane/steps/floorplaning`  
-- {doc}`../digital_flow/OpenROAD-Flow-Script/steps/floorplaning`
-```
 
 ## Floorplanning in analog design
 
@@ -108,26 +103,8 @@ For detailed steps on digital floorplanning, see:
   - Schematic-driven layout templates.  
   - Analog floorplan sketches (often manual).  
 
-```{seealso}
-For schematic-driven analog layout, see:  
-- {doc}`../analog_flow/steps/floorplaning`  
-```
-
 ## Mixed-signal considerations
 
 - Separation of digital and analog domains to reduce noise coupling.  
 - Dedicated power grids for analog and digital blocks.  
 - Shielding of sensitive analog traces from switching digital nets.  
-
-```{seealso}
-For mixed-signal integration, see:  
-```
-
-## Further Reading
-
-- 1001
-- 1002
-- 1006
-- 1007
-- 1017
-- 1018

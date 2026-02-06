@@ -83,12 +83,5 @@ Verification occurs continuously across the design flow:
 
 ## See Also
 
-```{seealso}
-- {doc}`../digital_flows/openroad/flow_steps`  
-- {doc}`../digital_flows/librelane/flow_steps`  
-- {doc}`../analog_flows/magic_layout`  
-- {doc}`../analog_flows/klayout_drc_lvs`  
-```
-
 ## Further Reading
 

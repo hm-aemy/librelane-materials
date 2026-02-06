@@ -43,12 +43,6 @@ The GDSII (Graphic Data System II) format is the **industry standard** for excha
   - `design.gds` — final chip layout.  
   - `design.lef` — abstract view for integration in analog/mixed-signal contexts.  
 
--```{seealso}
-For digital GDS generation and streaming examples, see:
-- {doc}`../digital_flows/openroad/flow_steps`
-- {doc}`../digital_flows/librelane/flow_steps`
--```
-
 ---
 
 ## Analog GDS export
@@ -65,12 +59,6 @@ For digital GDS generation and streaming examples, see:
 - **Outputs:**  
   - `block_name.gds` — ready for top-level assembly or tape-out.  
 
--```{seealso}
-For analog layout and export workflows, see:
-- {doc}`../analog_flows/magic_layout`
-- {doc}`../analog_flows/klayout_drc_lvs`
--```
-
 ---
 
 ## Mixed-signal integration
@@ -80,10 +68,6 @@ When analog and digital blocks are designed separately, their GDS files must be 
 - **Hierarchical integration:** top-level cell references sub-blocks (analog, digital, IO pads).  
 - **Power domain consistency:** align supply names, ESD protection layers, and guard structures.  
 - **Verification:** run top-level DRC/LVS before final submission.  
-
--```{seealso}
-See {doc}`../mixed_signal/analog_on_top` for details on mixed-signal GDS integration.
--```
 
 ---
 
