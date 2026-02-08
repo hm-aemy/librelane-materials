@@ -104,10 +104,7 @@ This representation is what is later used for placement, routing, and timing ver
 ![asda](fig/full_adder_netlist.png "asdasd")
 *Visualization of the synthesized netlist of the 4-bit full adder.*
 
-More Information:
-
-[Digital Synthesis Basics – VSD YouTube Lecture](https://www.youtube.com/watch?v=TR3IMS_TYxw)  
-This video provides an accessible introduction to **logic synthesis** and how RTL is transformed into a gate-level netlist.
+Additional Material: https://ocdcpro.github.io/educator-portal/material_browser.html?topic=digital&stage=synthesis
 
 ## Analog netlist extraction
 

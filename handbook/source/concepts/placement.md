@@ -48,10 +48,7 @@ Placement is performed in multiple stages to gradually refine the position of al
 
 ![asda](fig/detailed_pl.jpg "asdasd")
 
-More information:
-
-**Video Resource – Placement Basics (VSD YouTube)**  
-[Placement Fundamentals](https://www.youtube.com/watch?v=hVT8pRgr5zg)
+Additional Material: https://ocdcpro.github.io/educator-portal/material_browser.html?topic=digital&stage=placement
 
 ## Placement in analog design
 

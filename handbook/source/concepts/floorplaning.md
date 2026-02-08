@@ -80,16 +80,7 @@ A well-structured PDN minimizes IR drop, electromigration, and noise coupling be
   - Floorplan DEF/LEF files.  
   - Reports for area utilization and congestion estimates.  
 
-More information:
-
-**Video Series – Floorplanning Basics (VSD YouTube)**  
-- [Part 1](https://www.youtube.com/watch?v=Z1Cxbn5LOYg)  
-- [Part 2](https://www.youtube.com/watch?v=iKGxOVbwi40)  
-- [Part 3](https://www.youtube.com/watch?v=YcwY1PH31qg)  
-- [Part 4](https://www.youtube.com/watch?v=AW6OwZxY7VY)  
-- [Part 5](https://www.youtube.com/watch?v=IG0EWRcDkl8)  
-- [Part 6](https://www.youtube.com/watch?v=3n_v_1HRlzM)  
-- [Part 7](https://www.youtube.com/watch?v=HVeSgMS8-SU) 
+Additional Material: https://ocdcpro.github.io/educator-portal/material_browser.html?topic=digital&stage=floorplanning
 
 ## Floorplanning in analog design
 

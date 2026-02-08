@@ -86,11 +86,7 @@ This testbench toggles the clock and reset signals, recording all transitions to
 ![asda](fig/counter_vcd.png "asdasd")
 *Simulation results*
 
-More information:
-
-[Verilator Documentation](https://verilator.org/)  
-[Icarus Verilog Documentation](http://iverilog.icarus.com/)  
-[VSD – Digital Simulation Basics (YouTube)](https://www.youtube.com/watch?v=7JQh3HTuPJk)
+Additional Material: https://ocdcpro.github.io/educator-portal/material_browser.html?type=tutorial&topic=digital&stage=simulation
 
 ## Analog simulation
 

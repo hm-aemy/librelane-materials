@@ -47,10 +47,7 @@ Routing is typically divided into two main stages that progressively refine sign
 
 ![asda](fig/routing.jpg "asdasd")
 
-More information:
-
-**Video Resource – Routing Fundamentals (VSD YouTube)**  
-[Routing Basics](https://www.youtube.com/watch?v=yS3TMVovX-4)
+Additional Material: https://ocdcpro.github.io/educator-portal/material_browser.html?topic=digital&stage=routing
 
 ## Routing in analog design
 
